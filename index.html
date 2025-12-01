@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours Web Master</title>
+    <link rel="icon" href="./images/logo-miniature.svg" type="image/svg+xml">
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body class="text-dark-blue text-base">
+    <header class="w-full">
+        <div class="max-w-1536 mx-auto px-5 bg-white flex items-center justify-between">
+            <a href="#"><img src="./images/logo.svg" alt="cours-web-master logo" class=""></a>
+
+            <ul class="flex  gap-x-5">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+
+            <div class="flex items-center gap-x-5">
+                <button class="flex items-center gap-x-2">
+                    <iconify-icon icon="fluent:person-16-regular" class="text-xl text-green"></iconify-icon>
+                    <span>Login</span>
+                </button>
+
+                <div class="w-0.5 h-5 bg-black opacity-15"></div>
+
+                <button class="flex items-center"><iconify-icon icon="iconoir:search"
+                        class="text-2xl"></iconify-icon></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Top header -->
+        <section class="py-48 bg-linear-to-r from-green via-[#F6FBEA] to-[#8EEAFF]">
+            <div class="max-w-1536 mx-auto px-5 flex items-center justify-between">
+                <div class="flex flex-col gap-y-10">
+                    <h1 class="text-5xl  font-bold relative">
+                        Complete Your Dreams <br>
+                        in JavaS Programming
+                        <img src="./images/header-underline.svg" alt="underline" class="absolute -bottom-5 right-0">
+                    </h1>
+                    <p class="">Learn any coding program in distance and for a reasonable fee. You <br>
+                        don't have to struggle alone, you've got our assistance and help.</p>
+                    <button class="bg-green text-white rounded-lg p-3 w-fit">Start Learning Now</button>
+                </div>
+
+                <div>
+                    <img src="./images/home-header.webp" alt="header image" class="w-440 h-500 object-cover rounded-lg">
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Courses -->
+        <section class="py-16">
+            <div class="max-w-1536 mx-auto px-5">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center gap-x-5">
+                        <h2 class="text-3xl font-bold ">Popular Courses</h2>
+                        <div class="h-2 w-20 bg-yellow"></div>
+                    </div>
+
+                    <a href="#" class="cursor-pointer">
+                        <button
+                            class="bg-white cursor-pointer border p-3 border-green text-green rounded-lg hover:bg-green hover:text-white">View
+                            All Courses</button>
+                    </a>
+                </div>
+
+                <div class="pt-10 grid grid-cols-[repeat(auto-fill,minmax(290px,1fr))] gap-3">
+                    <article class="h-400 border border-black/10 rounded-lg flex flex-col">
+                        <div
+                            class="relative h-1/2 bg-[url('./../images/img-1.jpg')] bg-cover bg-center bg-no-repeat p-5 rounded-t-lg ">
+                            <div class="absolute inset-0 bg-gray/15 z-10"></div>
+                            <div class="flex justify-between z-20 absolute inset-0 p-5">
+                                <p class="bg-green p-3 rounded-lg w-fit text-white h-fit">Javascript</p>
+                                <button
+                                    class="bg-white h-10 w-10 flex items-center justify-center rounded-full cursor-pointer ">
+                                    <iconify-icon icon="si:heart-line" class="text-2xl"></iconify-icon>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="p-5 flex flex-col place-content-between flex-1">
+                            <h3 class="font-medium ">[FR] Méga Classe IA & Python : 300+ Projets Pratiques
+                            </h3>
+
+                            <div class="flex items-center gap-x-5">
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="cil:book" class="text-red"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">14 Lessons</span>
+                                </div>
+
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="mingcute:star-fill" class="text-yellow"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">4,6</span>
+                                </div>
+                            </div>
+
+                            <div class="w-full h-0.5 bg-black/15"></div>
+
+                            <div class="flex justify-between text-sm">
+                                <span class="text-high font-medium ">Free</span>
+                                <a href="#">View Details</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="h-400 border border-black/10 rounded-lg flex flex-col">
+                        <div
+                            class="relative h-1/2 bg-[url('./../images/img-1.jpg')] bg-cover bg-center bg-no-repeat p-5 rounded-t-lg ">
+                            <div class="absolute inset-0 bg-gray/15 z-10"></div>
+                            <div class="flex justify-between z-20 absolute inset-0 p-5">
+                                <p class="bg-green p-3 rounded-lg w-fit text-white h-fit">Javascript</p>
+                                <button
+                                    class="bg-white h-10 w-10 flex items-center justify-center rounded-full cursor-pointer ">
+                                    <iconify-icon icon="si:heart-line" class="text-2xl"></iconify-icon>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="p-5 flex flex-col place-content-between flex-1">
+                            <h3 class="font-medium ">[FR] Méga Classe IA & Python : 300+ Projets Pratiques
+                            </h3>
+
+                            <div class="flex items-center gap-x-5">
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="cil:book" class="text-red"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">14 Lessons</span>
+                                </div>
+
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="mingcute:star-fill" class="text-yellow"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">4,6</span>
+                                </div>
+                            </div>
+
+                            <div class="w-full h-0.5 bg-black/15"></div>
+
+                            <div class="flex justify-between text-sm">
+                                <span class="text-high font-medium ">Free</span>
+                                <a href="#">View Details</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="h-400 border border-black/10 rounded-lg flex flex-col">
+                        <div
+                            class="relative h-1/2 bg-[url('./../images/img-1.jpg')] bg-cover bg-center bg-no-repeat p-5 rounded-t-lg ">
+                            <div class="absolute inset-0 bg-gray/15 z-10"></div>
+                            <div class="flex justify-between z-20 absolute inset-0 p-5">
+                                <p class="bg-green p-3 rounded-lg w-fit text-white h-fit">Javascript</p>
+                                <button
+                                    class="bg-white h-10 w-10 flex items-center justify-center rounded-full cursor-pointer ">
+                                    <iconify-icon icon="si:heart-line" class="text-2xl"></iconify-icon>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="p-5 flex flex-col place-content-between flex-1">
+                            <h3 class="font-medium ">[FR] Méga Classe IA & Python : 300+ Projets Pratiques
+                            </h3>
+
+                            <div class="flex items-center gap-x-5">
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="cil:book" class="text-red"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">14 Lessons</span>
+                                </div>
+
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="mingcute:star-fill" class="text-yellow"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">4,6</span>
+                                </div>
+                            </div>
+
+                            <div class="w-full h-0.5 bg-black/15"></div>
+
+                            <div class="flex justify-between text-sm">
+                                <span class="text-high font-medium ">Free</span>
+                                <a href="#">View Details</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="h-400 border border-black/10 rounded-lg flex flex-col">
+                        <div
+                            class="relative h-1/2 bg-[url('./../images/img-1.jpg')] bg-cover bg-center bg-no-repeat p-5 rounded-t-lg ">
+                            <div class="absolute inset-0 bg-gray/15 z-10"></div>
+                            <div class="flex justify-between z-20 absolute inset-0 p-5">
+                                <p class="bg-green p-3 rounded-lg w-fit text-white h-fit">Javascript</p>
+                                <button
+                                    class="bg-white h-10 w-10 flex items-center justify-center rounded-full cursor-pointer ">
+                                    <iconify-icon icon="si:heart-line" class="text-2xl"></iconify-icon>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="p-5 flex flex-col place-content-between flex-1">
+                            <h3 class="font-medium ">[FR] Méga Classe IA & Python : 300+ Projets Pratiques
+                            </h3>
+
+                            <div class="flex items-center gap-x-5">
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="cil:book" class="text-red"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">14 Lessons</span>
+                                </div>
+
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="mingcute:star-fill" class="text-yellow"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">4,6</span>
+                                </div>
+                            </div>
+
+                            <div class="w-full h-0.5 bg-black/15"></div>
+
+                            <div class="flex justify-between text-sm">
+                                <span class="text-high font-medium ">Free</span>
+                                <a href="#">View Details</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="h-400 border border-black/10 rounded-lg flex flex-col">
+                        <div
+                            class="relative h-1/2 bg-[url('./../images/img-1.jpg')] bg-cover bg-center bg-no-repeat p-5 rounded-t-lg ">
+                            <div class="absolute inset-0 bg-gray/15 z-10"></div>
+                            <div class="flex justify-between z-20 absolute inset-0 p-5">
+                                <p class="bg-green p-3 rounded-lg w-fit text-white h-fit">Javascript</p>
+                                <button
+                                    class="bg-white h-10 w-10 flex items-center justify-center rounded-full cursor-pointer ">
+                                    <iconify-icon icon="si:heart-line" class="text-2xl"></iconify-icon>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="p-5 flex flex-col place-content-between flex-1">
+                            <h3 class="font-medium ">[FR] Méga Classe IA & Python : 300+ Projets Pratiques
+                            </h3>
+
+                            <div class="flex items-center gap-x-5">
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="cil:book" class="text-red"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">14 Lessons</span>
+                                </div>
+
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="mingcute:star-fill" class="text-yellow"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">4,6</span>
+                                </div>
+                            </div>
+
+                            <div class="w-full h-0.5 bg-black/15"></div>
+
+                            <div class="flex justify-between text-sm">
+                                <span class="text-high font-medium ">Free</span>
+                                <a href="#">View Details</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="h-400 border border-black/10 rounded-lg flex flex-col">
+                        <div
+                            class="relative h-1/2 bg-[url('./../images/img-1.jpg')] bg-cover bg-center bg-no-repeat p-5 rounded-t-lg ">
+                            <div class="absolute inset-0 bg-gray/15 z-10"></div>
+                            <div class="flex justify-between z-20 absolute inset-0 p-5">
+                                <p class="bg-green p-3 rounded-lg w-fit text-white h-fit">Javascript</p>
+                                <button
+                                    class="bg-white h-10 w-10 flex items-center justify-center rounded-full cursor-pointer ">
+                                    <iconify-icon icon="si:heart-line" class="text-2xl"></iconify-icon>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="p-5 flex flex-col place-content-between flex-1">
+                            <h3 class="font-medium ">[FR] Méga Classe IA & Python : 300+ Projets Pratiques
+                            </h3>
+
+                            <div class="flex items-center gap-x-5">
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="cil:book" class="text-red"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">14 Lessons</span>
+                                </div>
+
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="mingcute:star-fill" class="text-yellow"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">4,6</span>
+                                </div>
+                            </div>
+
+                            <div class="w-full h-0.5 bg-black/15"></div>
+
+                            <div class="flex justify-between text-sm">
+                                <span class="text-high font-medium ">Free</span>
+                                <a href="#">View Details</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="h-400 border border-black/10 rounded-lg flex flex-col">
+                        <div
+                            class="relative h-1/2 bg-[url('./../images/img-1.jpg')] bg-cover bg-center bg-no-repeat p-5 rounded-t-lg ">
+                            <div class="absolute inset-0 bg-gray/15 z-10"></div>
+                            <div class="flex justify-between z-20 absolute inset-0 p-5">
+                                <p class="bg-green p-3 rounded-lg w-fit text-white h-fit">Javascript</p>
+                                <button
+                                    class="bg-white h-10 w-10 flex items-center justify-center rounded-full cursor-pointer ">
+                                    <iconify-icon icon="si:heart-line" class="text-2xl"></iconify-icon>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="p-5 flex flex-col place-content-between flex-1">
+                            <h3 class="font-medium ">[FR] Méga Classe IA & Python : 300+ Projets Pratiques
+                            </h3>
+
+                            <div class="flex items-center gap-x-5">
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="cil:book" class="text-red"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">14 Lessons</span>
+                                </div>
+
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="mingcute:star-fill" class="text-yellow"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">4,6</span>
+                                </div>
+                            </div>
+
+                            <div class="w-full h-0.5 bg-black/15"></div>
+
+                            <div class="flex justify-between text-sm">
+                                <span class="text-high font-medium ">Free</span>
+                                <a href="#">View Details</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="h-400 border border-black/10 rounded-lg flex flex-col">
+                        <div
+                            class="relative h-1/2 bg-[url('./../images/img-1.jpg')] bg-cover bg-center bg-no-repeat p-5 rounded-t-lg ">
+                            <div class="absolute inset-0 bg-gray/15 z-10"></div>
+                            <div class="flex justify-between z-20 absolute inset-0 p-5">
+                                <p class="bg-green p-3 rounded-lg w-fit text-white h-fit">Javascript</p>
+                                <button
+                                    class="bg-white h-10 w-10 flex items-center justify-center rounded-full cursor-pointer ">
+                                    <iconify-icon icon="si:heart-line" class="text-2xl"></iconify-icon>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="p-5 flex flex-col place-content-between flex-1">
+                            <h3 class="font-medium ">[FR] Méga Classe IA & Python : 300+ Projets Pratiques
+                            </h3>
+
+                            <div class="flex items-center gap-x-5">
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="cil:book" class="text-red"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">14 Lessons</span>
+                                </div>
+
+                                <div class="flex items-center gap-x-2">
+                                    <div
+                                        class="h-7 w-7 flex items-center justify-center rounded-full border border-black/10">
+                                        <iconify-icon icon="mingcute:star-fill" class="text-yellow"></iconify-icon>
+                                    </div>
+                                    <span class=" opacity-60">4,6</span>
+                                </div>
+                            </div>
+
+                            <div class="w-full h-0.5 bg-black/15"></div>
+
+                            <div class="flex justify-between text-sm">
+                                <span class="text-high font-medium ">Free</span>
+                                <a href="#">View Details</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Construct -->
+        <section class="py-16 bg-green/5">
+            <div class="max-w-1536 mx-auto px-5 grid grid-cols-2">
+                <div></div>
+                <div>
+                    <div class="flex items-center gap-x-5">
+                        <h2 class="text-3xl font-bold ">Construct A Stunning Career Perspective</h2>
+                        <div class="h-2 w-20 bg-yellow"></div>
+                    </div>
+                    <p class="py-5">You don't have to struggle alone, you've got our assistance and help.</p>
+                    <img src="./images/chair.png" alt="chair image" class="w-400 h-400 object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Limitless -->
+        <section class="bg-dark-blue py-32 relative">
+            <div class="max-w-1536 px-5 mx-auto z-30">
+                <div class="text-white">
+                    <h2 class="text-3xl font-bold ">Limitless Learning And Get</h2>
+                    <div class="flex items-center gap-x-5 mt-3">
+                        <h2 class="text-3xl font-bold ">More possibilities</h2>
+                        <div class="h-2 w-20 bg-yellow"></div>
+                    </div>
+
+                    <p class="mt-10 text-white/60">Our educational case studies offer real-world solutions
+                        <br> about how we clinically transform young & bright minds.
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="w-3/5 absolute h-full bg-[linear-gradient(260.95deg,rgba(3,36,39,0)_21.4%,#032427_88.81%)] z-20 top-0 right-0">
+            </div>
+            <div class="w-3/5 absolute h-full bg-[url('./../images/img-0.jpg')] z-10 top-0 right-0 bg-cover bg-center">
+            </div>
+        </section>
+
+        <!-- Upgrade your skills -->
+        <section class="py-16">
+            <div class="max-w-1536 mx-auto px-5 grid grid-cols-2 items-center">
+                <div>
+
+                </div>
+
+                <div class="flex flex-col gap-y-10">
+                    <h2 class="text-3xl font-bold">Upgrade your skills and upgrade <br>your life</h2>
+                    <p>With a professional team, located in the heart of Massachusetts, we have set up consulting
+                        support for international students helping them in their educational enlightenment.</p>
+                    <button class="bg-green text-white rounded-lg p-3 w-fit">Start Learning Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark-blue text-white py-16">
+        <div class="max-w-1536 mx-auto px-5 flex flex-col gap-y-10">
+            <!-- footer-top -->
+            <div class="flex justify-between">
+                <div class="flex flex-col items-start gap-y-5 w-fit">
+                    <img src="./images/logo-white.svg" alt="cours-web-master logo" class="h-20">
+                    <p class="font-normal text-white/60">Lorem ipsum dolor sit amet, consectetur adipisc ing elit. <br>
+                        Nunc
+                        maximus, nulla utlaoki comm odo
+                        sagittis.</p>
+                    <div class="text-2xl flex gap-x-3 items-center">
+                        <iconify-icon icon="basil:instagram-outline"></iconify-icon>
+                        <iconify-icon icon="arcticons:x-twitter"></iconify-icon>
+                        <iconify-icon icon="basil:linkedin-outline"></iconify-icon>
+                        <iconify-icon icon="basil:facebook-outline"></iconify-icon>
+                        <iconify-icon icon="basil:youtube-outline"></iconify-icon>
+                    </div>
+                </div>
+
+                <div class="flex justify-between w-1/2">
+                    <div>
+                        <p>Links</p>
+                        <ul class="flex flex-col gap-y-5 mt-5">
+                            <li class="text-white/50"><a href="#">Home</a></li>
+                            <li class="text-white/50"><a href="#">Courses</a></li>
+                            <li class="text-white/50"><a href="#">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p>Top Categories</p>
+                        <ul class="flex flex-col gap-y-5 mt-5">
+                            <li class="text-white/50"><a href="#">Javascript</a></li>
+                            <li class="text-white/50"><a href="#">Python</a></li>
+                            <li class="text-white/50"><a href="#">HTML/CSS</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p>Support</p>
+                        <ul class="flex flex-col gap-y-5 mt-5">
+                            <li class="text-white/50"><a href="#">Documentation</a></li>
+                            <li class="text-white/50"><a href="#">FAQs</a></li>
+                            <li class="text-white/50"><a href="#">Forum</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full h-0.5 bg-white/10"></div>
+
+            <!-- footer-bottom -->
+            <div class="flex justify-between">
+                <p>© 2025 ScriptWebMaster. All rights reserved.</p>
+                <div class="flex gap-x-5">
+                    <a href="#" class="text-white/50">Privacy Policy</a>
+                    <a href="#" class="text-white/50">Terms of Service</a>
+                    <a href="#" class="text-white/50">Cookies Settings</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

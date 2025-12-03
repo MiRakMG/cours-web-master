@@ -9,10 +9,12 @@
   --color-high: #ff452c;
   --color-gray: #d9d9d9;
   --color-light-gray: #fafafa;
+  --color-blue : #0D99FF;
 
   /* Spacing */
   --spacing-400: 400px;
   --spacing-440: 440px;
+  --spacing-480: 480px;
   --spacing-500: 500px;
   --spacing-1536: 1536px;
 }

@@ -14,9 +14,14 @@
 <body class="text-dark-blue text-base">
     <header class="w-full">
         <div class="max-w-1536 mx-auto px-5 bg-white flex items-center justify-between">
-            <a href="#"><img src="./images/logo.svg" alt="cours-web-master logo" class=""></a>
+            <div class="flex gap-x-2 items-center">
+                <button class="md:hidden">
+                    <iconify-icon icon="tabler:menu-3" class="text-3xl text-green"></iconify-icon>
+                </button>
+                <a href="#"><img src="./images/logo.svg" alt="cours-web-master logo" class=""></a>
+            </div>
 
-            <ul class="flex  gap-x-5">
+            <ul class="hidden md:flex  gap-x-5">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Courses</a></li>
                 <li><a href="./pages/categories.html">Categories</a></li>
@@ -41,20 +46,26 @@
     <main>
         <!-- Top header -->
         <section class="relative">
-            <div class="max-w-1536 mx-auto px-5 flex items-center justify-between py-48">
-                <div class="flex flex-col gap-y-10">
-                    <h1 class="text-5xl  font-bold relative">
-                        Complete Your Dreams <br>
+            <div
+                class="max-w-1536 mx-auto px-5 flex flex-col gap-y-5 xl:flex-row items-center justify-between py-16 xl:py-48">
+                <div class="flex flex-col items-center xl:items-start gap-y-10">
+                    <h1 class=" text-3xl md:text-5xl  font-bold relative">
+                        Complete Your Dreams <br class="hidden md:block">
                         in JavaS Programming
                         <img src="./images/header-underline.svg" alt="underline" class="absolute -bottom-5 right-0">
                     </h1>
-                    <p class="">Learn any coding program in distance and for a reasonable fee. You <br>
+                    <p class="">Learn any coding program in distance and for a reasonable fee. You <br
+                            class="hidden md:block">
                         don't have to struggle alone, you've got our assistance and help.</p>
                     <button class="bg-green text-white rounded-lg p-3 w-fit">Start Learning Now</button>
                 </div>
 
-                <div>
-                    <img src="./images/home-header.webp" alt="header image" class="w-440 h-500 object-cover rounded-lg">
+                <div class="relative w-full h-auto md:w-440 md:h-500 ">
+                    <div class="h-5 w-5 rounded-full bg-red absolute -top-10 right-5"></div>
+                    <img src="./images/home-header.webp" alt="header image"
+                        class="w-full h-auto md:h-full inset-0 md:absolute z-40 object-cover rounded-lg">
+                    <img src="./images/pattern-header.svg" alt="pattern-header"
+                        class="absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0">
                 </div>
             </div>
             <div class="bg-linear-to-r from-green via-[#F6FBEA] to-[#8EEAFF] opacity-15 absolute inset-0"></div>
@@ -65,11 +76,11 @@
             <div class="max-w-1536 mx-auto px-5">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center gap-x-5">
-                        <h2 class="text-3xl font-bold ">Popular Courses</h2>
-                        <div class="h-2 w-20 bg-yellow"></div>
+                        <h2 class="text-2xl sm:text-3xl font-bold ">Popular Courses</h2>
+                        <div class="h-2 w-14 sm:w-20 bg-yellow"></div>
                     </div>
 
-                    <a href="./pages/courses.html" class="cursor-pointer">
+                    <a href="./pages/courses.html" class="cursor-pointer hidden md:block">
                         <button
                             class="bg-white cursor-pointer border p-3 border-green text-green rounded-lg hover:bg-green hover:text-white">View
                             All Courses</button>
@@ -422,13 +433,41 @@
                         </div>
                     </article>
                 </div>
+
+                <a href="./pages/courses.html" class="cursor-pointer mt-5 flex justify-center md:hidden">
+                    <button
+                        class="bg-white cursor-pointer border p-3 border-green text-green rounded-lg hover:bg-green hover:text-white">View
+                        All Courses</button>
+                </a>
             </div>
         </section>
 
         <!-- Construct -->
         <section class="py-16 bg-green/5">
-            <div class="max-w-1536 mx-auto px-5 grid grid-cols-2">
-                <div></div>
+            <div class="max-w-1536 mx-auto px-5 grid grid-cols-2 gap-x-10">
+                <div class="grid grid-cols-2 gap-5">
+                    <div>
+                        <div class="aspect-square bg-white">
+
+                        </div>
+
+
+                        <div class="aspect-square bg-white mt-5">
+
+                        </div>
+                    </div>
+
+                    <div class="mt-10">
+                        <div class="aspect-square bg-white">
+
+                        </div>
+
+
+                        <div class="aspect-square bg-white mt-5">
+
+                        </div>
+                    </div>
+                </div>
                 <div>
                     <div class="flex items-center gap-x-5">
                         <h2 class="text-3xl font-bold ">Construct A Stunning Career Perspective</h2>

@@ -14,14 +14,19 @@
 <body class="text-dark-blue text-base">
     <header class="w-full shadow-lg shadow-black/15">
         <div class="max-w-1536 mx-auto px-5 bg-white flex items-center justify-between">
-            <a href="#"><img src="./../images/logo.svg" alt="cours-web-master logo" class=""></a>
+            <div class="flex gap-x-2 items-center">
+                <button class="md:hidden">
+                    <iconify-icon icon="tabler:menu-3" class="text-3xl text-green"></iconify-icon>
+                </button>
+                <a href="./../index.html"><img src="./../images/logo.svg" alt="cours-web-master logo" class=""></a>
+            </div>
 
-            <ul class="flex  gap-x-5">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="./categories.html">Categories</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="./blogs.html">Blog</a></li>
+            <ul class="hidden md:flex  gap-x-5">
+                <li><a href="./../index.html" class="hover:font-bold">Home</a></li>
+                <li><a href="./courses.html" class="hover:font-bold">Courses</a></li>
+                <li><a href="./categories.html" class="hover:font-bold">Categories</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="./blogs.html" class="hover:font-bold">Blog</a></li>
             </ul>
 
             <div class="flex items-center gap-x-5">
@@ -39,9 +44,9 @@
     </header>
 
     <main>
-        <section class="py-10 max-w-1536 mx-auto px-5 flex gap-x-5">
-            <div class="w-440">
-                <h2 class="font-medium text-3xl">Learn essential skills for your career and everyday life</h2>
+        <section class="py-10 max-w-1536 mx-auto px-5 flex flex-col xl:flex-row gap-5">
+            <div class="sm:w-440">
+                <h2 class="font-medium text-wrap text-2xl sm:text-3xl">Learn essential skills for your career and everyday life</h2>
                 <p class="opacity-65 mt-5">Helps you quickly develop highly sought-after skills to advance your career
                     in a rapidly changing job market.</p>
             </div>
@@ -51,14 +56,16 @@
                     class="h-48 bg-[url('./../images/next-js.png')] bg-cover bg-center bg-no-repeat rounded-lg relative">
                     <div class="absolute bottom-0 left-0 right-0 flex items-center justify-center z-10  p-3">
                         <div class="w-full bg-white px-5 py-2 rounded-lg">
-                            <div class="border border-dark-blue/15 px-3 py-1 flex items-center gap-x-3 rounded-full w-fit">
+                            <div
+                                class="border border-dark-blue/15 px-3 py-1 flex items-center gap-x-3 rounded-full w-fit">
                                 <iconify-icon icon="hugeicons:course" class="text-3xl"></iconify-icon>
                                 <span>14 Courses</span>
                             </div>
 
                             <div class="flex justify-between items-center mt-3">
                                 <span>Next.js</span>
-                                <button class="border border-dark-blue/15 h-6 w-6 rounded-full flex justify-center items-center">
+                                <button
+                                    class="border border-dark-blue/15 h-6 w-6 rounded-full flex justify-center items-center">
                                     <iconify-icon icon="lsicon:right-filled" class="text-base"></iconify-icon>
                                 </button>
                             </div>
@@ -71,14 +78,16 @@
                     class="h-48 bg-[url('./../images/next-js.png')] bg-cover bg-center bg-no-repeat rounded-lg relative">
                     <div class="absolute bottom-0 left-0 right-0 flex items-center justify-center z-10  p-3">
                         <div class="w-full bg-white px-5 py-2 rounded-lg">
-                            <div class="border border-dark-blue/15 px-3 py-1 flex items-center gap-x-3 rounded-full w-fit">
+                            <div
+                                class="border border-dark-blue/15 px-3 py-1 flex items-center gap-x-3 rounded-full w-fit">
                                 <iconify-icon icon="hugeicons:course" class="text-3xl"></iconify-icon>
                                 <span>14 Courses</span>
                             </div>
 
                             <div class="flex justify-between items-center mt-3">
                                 <span>Next.js</span>
-                                <button class="border border-dark-blue/15 h-6 w-6 rounded-full flex justify-center items-center">
+                                <button
+                                    class="border border-dark-blue/15 h-6 w-6 rounded-full flex justify-center items-center">
                                     <iconify-icon icon="lsicon:right-filled" class="text-base"></iconify-icon>
                                 </button>
                             </div>
@@ -91,14 +100,16 @@
                     class="h-48 bg-[url('./../images/next-js.png')] bg-cover bg-center bg-no-repeat rounded-lg relative">
                     <div class="absolute bottom-0 left-0 right-0 flex items-center justify-center z-10  p-3">
                         <div class="w-full bg-white px-5 py-2 rounded-lg">
-                            <div class="border border-dark-blue/15 px-3 py-1 flex items-center gap-x-3 rounded-full w-fit">
+                            <div
+                                class="border border-dark-blue/15 px-3 py-1 flex items-center gap-x-3 rounded-full w-fit">
                                 <iconify-icon icon="hugeicons:course" class="text-3xl"></iconify-icon>
                                 <span>14 Courses</span>
                             </div>
 
                             <div class="flex justify-between items-center mt-3">
                                 <span>Next.js</span>
-                                <button class="border border-dark-blue/15 h-6 w-6 rounded-full flex justify-center items-center">
+                                <button
+                                    class="border border-dark-blue/15 h-6 w-6 rounded-full flex justify-center items-center">
                                     <iconify-icon icon="lsicon:right-filled" class="text-base"></iconify-icon>
                                 </button>
                             </div>
@@ -111,14 +122,16 @@
                     class="h-48 bg-[url('./../images/next-js.png')] bg-cover bg-center bg-no-repeat rounded-lg relative">
                     <div class="absolute bottom-0 left-0 right-0 flex items-center justify-center z-10  p-3">
                         <div class="w-full bg-white px-5 py-2 rounded-lg">
-                            <div class="border border-dark-blue/15 px-3 py-1 flex items-center gap-x-3 rounded-full w-fit">
+                            <div
+                                class="border border-dark-blue/15 px-3 py-1 flex items-center gap-x-3 rounded-full w-fit">
                                 <iconify-icon icon="hugeicons:course" class="text-3xl"></iconify-icon>
                                 <span>14 Courses</span>
                             </div>
 
                             <div class="flex justify-between items-center mt-3">
                                 <span>Next.js</span>
-                                <button class="border border-dark-blue/15 h-6 w-6 rounded-full flex justify-center items-center">
+                                <button
+                                    class="border border-dark-blue/15 h-6 w-6 rounded-full flex justify-center items-center">
                                     <iconify-icon icon="lsicon:right-filled" class="text-base"></iconify-icon>
                                 </button>
                             </div>
@@ -131,14 +144,16 @@
                     class="h-48 bg-[url('./../images/next-js.png')] bg-cover bg-center bg-no-repeat rounded-lg relative">
                     <div class="absolute bottom-0 left-0 right-0 flex items-center justify-center z-10  p-3">
                         <div class="w-full bg-white px-5 py-2 rounded-lg">
-                            <div class="border border-dark-blue/15 px-3 py-1 flex items-center gap-x-3 rounded-full w-fit">
+                            <div
+                                class="border border-dark-blue/15 px-3 py-1 flex items-center gap-x-3 rounded-full w-fit">
                                 <iconify-icon icon="hugeicons:course" class="text-3xl"></iconify-icon>
                                 <span>14 Courses</span>
                             </div>
 
                             <div class="flex justify-between items-center mt-3">
                                 <span>Next.js</span>
-                                <button class="border border-dark-blue/15 h-6 w-6 rounded-full flex justify-center items-center">
+                                <button
+                                    class="border border-dark-blue/15 h-6 w-6 rounded-full flex justify-center items-center">
                                     <iconify-icon icon="lsicon:right-filled" class="text-base"></iconify-icon>
                                 </button>
                             </div>
@@ -151,14 +166,16 @@
                     class="h-48 bg-[url('./../images/next-js.png')] bg-cover bg-center bg-no-repeat rounded-lg relative">
                     <div class="absolute bottom-0 left-0 right-0 flex items-center justify-center z-10  p-3">
                         <div class="w-full bg-white px-5 py-2 rounded-lg">
-                            <div class="border border-dark-blue/15 px-3 py-1 flex items-center gap-x-3 rounded-full w-fit">
+                            <div
+                                class="border border-dark-blue/15 px-3 py-1 flex items-center gap-x-3 rounded-full w-fit">
                                 <iconify-icon icon="hugeicons:course" class="text-3xl"></iconify-icon>
                                 <span>14 Courses</span>
                             </div>
 
                             <div class="flex justify-between items-center mt-3">
                                 <span>Next.js</span>
-                                <button class="border border-dark-blue/15 h-6 w-6 rounded-full flex justify-center items-center">
+                                <button
+                                    class="border border-dark-blue/15 h-6 w-6 rounded-full flex justify-center items-center">
                                     <iconify-icon icon="lsicon:right-filled" class="text-base"></iconify-icon>
                                 </button>
                             </div>
@@ -171,9 +188,9 @@
         </section>
 
         <section class="py-10 max-w-1536 mx-auto px-5">
-            <h2 class="font-medium text-3xl">Beginner's course</h2>
+            <h2 class="font-medium text-2xl sm:text-3xl">Beginner's course</h2>
             <p class="opacity-65 mt-5">Discover courses taught by proven experts.</p>
-            <div class="mt-5 flex gap-x-3">
+            <div class="mt-5 flex flex-wrap gap-3">
                 <button class="bg-gray-2 py-2 px-5 text-dark-blue opacity-80 rounded-full">News</button>
                 <button class="bg-gray-2 py-2 px-5 text-dark-blue opacity-80 rounded-full">Best courses</button>
                 <button class="bg-gray-2 py-2 px-5 text-dark-blue opacity-80 rounded-full">Most popular</button>
@@ -530,7 +547,7 @@
     <footer class="bg-dark-blue text-white py-16">
         <div class="max-w-1536 mx-auto px-5 flex flex-col gap-y-10">
             <!-- footer-top -->
-            <div class="flex justify-between">
+            <div class="flex flex-col lg:flex-row gap-y-20 justify-between">
                 <div class="flex flex-col items-start gap-y-5 w-fit">
                     <img src="./../images/logo-white.svg" alt="cours-web-master logo" class="h-20">
                     <p class="font-normal text-white/60">Lorem ipsum dolor sit amet, consectetur adipisc ing elit. <br>
@@ -546,7 +563,7 @@
                     </div>
                 </div>
 
-                <div class="flex justify-between w-1/2">
+                <div class="flex flex-col lg:flex-row gap-y-20 justify-between w-1/2">
                     <div>
                         <p>Links</p>
                         <ul class="flex flex-col gap-y-5 mt-5">
@@ -579,9 +596,9 @@
             <div class="w-full h-0.5 bg-white/10"></div>
 
             <!-- footer-bottom -->
-            <div class="flex justify-between">
+            <div class="flex flex-col md:flex-row items-center gap-y-5 justify-between">
                 <p>© 2025 ScriptWebMaster. All rights reserved.</p>
-                <div class="flex gap-x-5">
+                <div class="flex flex-col items-center md:flex-row gap-5">
                     <a href="#" class="text-white/50">Privacy Policy</a>
                     <a href="#" class="text-white/50">Terms of Service</a>
                     <a href="#" class="text-white/50">Cookies Settings</a>

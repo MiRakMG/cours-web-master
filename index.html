@@ -12,7 +12,7 @@
 </head>
 
 <body class="text-dark-blue text-base">
-    <header class="w-full">
+    <header class="w-full shadow-lg shadow-black/15">
         <div class="max-w-1536 mx-auto px-5 bg-white flex items-center justify-between">
             <div class="flex gap-x-2 items-center">
                 <button class="md:hidden">
@@ -23,10 +23,10 @@
 
             <ul class="hidden md:flex  gap-x-5">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="./pages/categories.html">Categories</a></li>
+                <li><a href="./pages/courses.html" class="hover:font-bold">Courses</a></li>
+                <li><a href="./pages/categories.html" class="hover:font-bold">Categories</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="./pages/blogs.html" class="hover:font-bold">Blog</a></li>
             </ul>
 
             <div class="flex items-center gap-x-5">
@@ -444,73 +444,86 @@
 
         <!-- Construct -->
         <section class="py-16 bg-green/5">
-            <div class="max-w-1536 mx-auto px-5 grid grid-cols-2 gap-x-10">
-                <div class="grid grid-cols-2 gap-5">
+            <div class="max-w-1536 mx-auto px-5 grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-5">
                     <div>
-                        <div class="aspect-square bg-white">
-
+                        <div class="py-10 px-5 bg-white rounded-lg">
+                            <div class="bg-[#21A3FF]/15 h-12 w-12 flex items-center justify-center rounded-lg">
+                                <iconify-icon icon="lsicon:setting-outline" class="text-3xl text-[#21A3FF]"></iconify-icon>
+                            </div>
+                            <p class="font-medium mt-5">Multiple Platforms Supported for Teaching & Studying</p>
                         </div>
 
 
-                        <div class="aspect-square bg-white mt-5">
-
+                        <div class="py-10 px-5 bg-white rounded-lg mt-3 md:mt-5">
+                            <div class="bg-[#21FF42]/15 h-12 w-12 flex items-center justify-center rounded-lg">
+                                <iconify-icon icon="solar:book-2-outline" class="text-3xl text-[#21FF42]"></iconify-icon>
+                            </div>
+                            <p class="font-medium mt-5">Multiple Course Participation at the Same Time</p>
                         </div>
                     </div>
 
-                    <div class="mt-10">
-                        <div class="aspect-square bg-white">
-
+                    <div class="md:mt-10">
+                       <div class="py-10 px-5 bg-white rounded-lg">
+                            <div class="bg-[#FF6421]/15 h-12 w-12 flex items-center justify-center rounded-lg">
+                                <iconify-icon icon="hugeicons:play" class="text-3xl text-[#FF6421]"></iconify-icon>
+                            </div>
+                            <p class="font-medium mt-5">Vert Fast & So Easy To Create Your The First Course</p>
                         </div>
 
 
-                        <div class="aspect-square bg-white mt-5">
-
+                        <div class="py-10 px-5 bg-white rounded-lg mt-3 md:mt-5">
+                            <div class="bg-[#FFDE21]/15 h-12 w-12 flex items-center justify-center rounded-lg">
+                                <iconify-icon icon="ant-design:message-outlined" class="text-3xl text-[#FFDE21]"></iconify-icon>
+                            </div>
+                            <p class="font-medium mt-5">Track Study Progress & Deliver Prompt Feedback</p>
                         </div>
                     </div>
                 </div>
                 <div>
                     <div class="flex items-center gap-x-5">
-                        <h2 class="text-3xl font-bold ">Construct A Stunning Career Perspective</h2>
-                        <div class="h-2 w-20 bg-yellow"></div>
+                        <h2 class="text-2xl sm:text-3xl font-bold ">Construct A Stunning Career Perspective</h2>
+                        <div class="h-2 w-14 sm:w-20 bg-yellow"></div>
                     </div>
                     <p class="py-5">You don't have to struggle alone, you've got our assistance and help.</p>
-                    <img src="./images/chair.png" alt="chair image" class="w-400 h-400 object-cover">
+                    <img src="./images/chair.png" alt="chair image" class="w-full sm:w-400 sm:h-400 object-cover mx-auto lg:mx-0">
                 </div>
             </div>
         </section>
 
         <!-- Limitless -->
         <section class="bg-dark-blue py-32 relative">
-            <div class="max-w-1536 px-5 mx-auto z-30">
+            <div class="relative max-w-1536 px-5 mx-auto z-30">
                 <div class="text-white">
-                    <h2 class="text-3xl font-bold ">Limitless Learning And Get</h2>
+                    <h2 class="text-2xl sm:text-3xl font-bold ">Limitless Learning And Get</h2>
                     <div class="flex items-center gap-x-5 mt-3">
-                        <h2 class="text-3xl font-bold ">More possibilities</h2>
-                        <div class="h-2 w-20 bg-yellow"></div>
+                        <h2 class="text-2xl sm:text-3xl font-bold ">More possibilities</h2>
+                        <div class="h-2 w-14 sm:w-20 bg-yellow"></div>
                     </div>
 
-                    <p class="mt-10 text-white/60">Our educational case studies offer real-world solutions
+                    <p class="mt-5 md:mt-10 text-white/60">Our educational case studies offer real-world solutions
                         <br> about how we clinically transform young & bright minds.
                     </p>
                 </div>
             </div>
 
             <div
-                class="w-3/5 absolute h-full bg-[linear-gradient(260.95deg,rgba(3,36,39,0)_21.4%,#032427_88.81%)] z-20 top-0 right-0">
+                class="w-full xl:w-3/5 absolute h-full bg-[linear-gradient(260.95deg,rgba(3,36,39,0)_21.4%,#032427_88.81%)] z-20 top-0 right-0">
             </div>
-            <div class="w-3/5 absolute h-full bg-[url('./../images/img-0.jpg')] z-10 top-0 right-0 bg-cover bg-center">
+            <div class="w-full xl:w-3/5 absolute h-full bg-[url('./../images/img-0.jpg')] z-10 top-0 right-0 bg-cover bg-center">
             </div>
         </section>
 
         <!-- Upgrade your skills -->
         <section class="py-16">
-            <div class="max-w-1536 mx-auto px-5 grid grid-cols-2 items-center">
-                <div>
-
+            <div class="max-w-1536 mx-auto px-5 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+                <div class="relative lg:p-20">
+                    <img src="./images/upgrade-skills.png" alt="upgrade skills image" class="w-full h-auto rounded-lg z-10 relative">
+                    <img src="./images/ellipse-yellow.svg" alt="ellipse-yellow" class="absolute right-0 bottom-0 z-0 lg:-translate-y-1/5 lg:-translate-x-1/5">
                 </div>
 
-                <div class="flex flex-col gap-y-10">
-                    <h2 class="text-3xl font-bold">Upgrade your skills and upgrade <br>your life</h2>
+                <div class="flex flex-col gap-y-5 md:gap-y-10">
+                    <h2 class="text-2xl sm:text-3xl font-bold">Upgrade your skills and upgrade <br class="hidden lg:block">your life</h2>
                     <p>With a professional team, located in the heart of Massachusetts, we have set up consulting
                         support for international students helping them in their educational enlightenment.</p>
                     <button class="bg-green text-white rounded-lg p-3 w-fit">Start Learning Now</button>
@@ -522,7 +535,7 @@
     <footer class="bg-dark-blue text-white py-16">
         <div class="max-w-1536 mx-auto px-5 flex flex-col gap-y-10">
             <!-- footer-top -->
-            <div class="flex justify-between">
+            <div class="flex flex-col lg:flex-row gap-y-20 justify-between">
                 <div class="flex flex-col items-start gap-y-5 w-fit">
                     <img src="./images/logo-white.svg" alt="cours-web-master logo" class="h-20">
                     <p class="font-normal text-white/60">Lorem ipsum dolor sit amet, consectetur adipisc ing elit. <br>
@@ -538,7 +551,7 @@
                     </div>
                 </div>
 
-                <div class="flex justify-between w-1/2">
+                <div class="flex flex-col lg:flex-row gap-y-20 justify-between w-1/2">
                     <div>
                         <p>Links</p>
                         <ul class="flex flex-col gap-y-5 mt-5">
@@ -571,9 +584,9 @@
             <div class="w-full h-0.5 bg-white/10"></div>
 
             <!-- footer-bottom -->
-            <div class="flex justify-between">
+            <div class="flex flex-col md:flex-row items-center gap-y-5 justify-between">
                 <p>© 2025 ScriptWebMaster. All rights reserved.</p>
-                <div class="flex gap-x-5">
+                <div class="flex flex-col items-center md:flex-row gap-5">
                     <a href="#" class="text-white/50">Privacy Policy</a>
                     <a href="#" class="text-white/50">Terms of Service</a>
                     <a href="#" class="text-white/50">Cookies Settings</a>

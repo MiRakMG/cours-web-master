@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./../css/index.css" />
     <link rel="stylesheet" href="./../css/styles.css" />
 </head>
+
 <body class="text-dark-blue text-base">
     <header class="w-full shadow-lg shadow-black/15">
         <div class="max-w-1536 mx-auto px-5 bg-white flex items-center justify-between">
@@ -53,10 +55,12 @@
             </div>
 
             <div class="mt-5 rounded-lg h-480 w-full relative">
-                <img src="./../images/img-2.jpg" alt="details preview course image" class="w-full h-full object-cover rounded-lg">
+                <img src="./../images/img-2.jpg" alt="details preview course image"
+                    class="w-full h-full object-cover rounded-lg">
                 <div class="absolute inset-0 bg-black/50 z-10 rounded-lg"></div>
                 <div class="absolute inset-0 flex items-center justify-center z-20">
-                    <button class="w-16 h-16 bg-white/35 hover:bg-white/50 rounded-full flex items-center justify-center cursor-pointer">
+                    <button
+                        class="w-16 h-16 bg-white/35 hover:bg-white/50 rounded-full flex items-center justify-center cursor-pointer">
                         <iconify-icon icon="mingcute:play-fill" class="text-white text-4xl"></iconify-icon>
                     </button>
                 </div>
@@ -68,7 +72,8 @@
                     <p class="opacity-50">Size: 526.44KB</p>
                 </div>
 
-                <button class="h-8 w-8 rounded-full bg-blue/10 flex items-center justify-center hover:bg-blue/20 cursor-pointer">
+                <button
+                    class="h-8 w-8 rounded-full bg-blue/10 flex items-center justify-center hover:bg-blue/20 cursor-pointer">
                     <iconify-icon icon="bytesize:download" class="text-xl text-blue"></iconify-icon>
                 </button>
             </div>
@@ -84,10 +89,56 @@
             </div>
         </section>
 
-        <aside class="w-400 bg-white rounded-lg shadow-lg shadow-black/5 p-5">
+        <aside class="w-full lg:w-400 bg-white rounded-lg shadow-lg shadow-black/5 p-5">
             <h3>Lesson List</h3>
-            <div>
+            <div class="flex flex-col gap-y-5 mt-5">
+                <div class="">
+                    <p class="font-medium flex justify-between items-center text-green">
+                        <span>Les bases de Python</span>
+                        <button>
+                            <iconify-icon icon="material-symbols:add-rounded" class="text-xl"></iconify-icon>
+                        </button>
+                    </p>
 
+                    <div class="text-sm flex flex-col gap-y-1 mt-3">
+                        <p class="bg-dark-blue/5 py-2 px-3 rounded-lg flex gap-x-3 items-center">
+                            <iconify-icon icon="ph:video" class="text-xl"></iconify-icon>
+                            <span>Introduction</span>
+                        </p>
+                        <p class="bg-dark-blue/5 py-2 px-3 rounded-lg flex gap-x-3 items-center opacity-40 hover:opacity-100 cursor-pointer">
+                            <iconify-icon icon="ph:video" class="text-xl"></iconify-icon>
+                            <span>Est-ce que l'IA remplace les développeurs?</span>
+                        </p>
+
+                        <p class="bg-dark-blue/5 py-2 px-3 rounded-lg flex gap-x-3 items-center opacity-40 hover:opacity-100 cursor-pointer">
+                            <iconify-icon icon="ph:video" class="text-xl"></iconify-icon>
+                            <span>Quickstart : Apprenez tout de suite</span>
+                        </p>
+
+                        <p class="bg-dark-blue/5 py-2 px-3 rounded-lg flex gap-x-3 items-center opacity-40 hover:opacity-100 cursor-pointer">
+                            <iconify-icon icon="ph:video" class="text-xl"></iconify-icon>
+                            <span>Rejoignez la communauté ! </span>
+                        </p>
+                    </div>
+                </div>
+                <p class="font-medium flex justify-between items-center">
+                    <span>Installation</span>
+                    <button>
+                        <iconify-icon icon="material-symbols:add-rounded" class="text-xl"></iconify-icon>
+                    </button>
+                </p>
+                <p class="font-medium flex justify-between items-center">
+                    <span>Les bases de Python</span>
+                    <button>
+                        <iconify-icon icon="material-symbols:add-rounded" class="text-xl"></iconify-icon>
+                    </button>
+                </p>
+                <p class="font-medium flex justify-between items-center">
+                    <span>Python approche visuel</span>
+                    <button>
+                        <iconify-icon icon="material-symbols:add-rounded" class="text-xl"></iconify-icon>
+                    </button>
+                </p>
             </div>
         </aside>
     </main>
@@ -155,4 +206,5 @@
         </div>
     </footer>
 </body>
+
 </html>

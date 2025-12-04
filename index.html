@@ -45,7 +45,7 @@
 
     <main>
         <!-- Top header -->
-        <section class="relative">
+        <section class="relative overflow-hidden">
             <div
                 class="max-w-1536 mx-auto px-5 flex flex-col gap-y-5 xl:flex-row items-center justify-between py-16 xl:py-48">
                 <div class="flex flex-col items-center xl:items-start gap-y-10">
@@ -60,15 +60,19 @@
                     <button class="bg-green text-white rounded-lg p-3 w-fit">Start Learning Now</button>
                 </div>
 
-                <div class="relative w-full h-auto md:w-440 md:h-500 ">
+                <div class="relative w-full h-auto md:w-440 md:h-500">
                     <div class="h-5 w-5 rounded-full bg-red absolute -top-10 right-5"></div>
+                    <div class="h-5 w-5 rounded-full bg-[#7ABADD] absolute -right-10 top-36"></div>
+                    <img src="./images/html-blue.svg" alt="html-blue" class="absolute -left-20 bottom-0 z-50">
+                    <img src="./images/check-green.svg" alt="check-green" class="absolute -right-20 bottom-0 z-50">
+                    <img src="./images/ellipse-yellow.svg" alt="ellipse-yellow"
+                        class="absolute -right-20 bottom-24 z-0">
                     <img src="./images/home-header.webp" alt="header image"
                         class="w-full h-auto md:h-full inset-0 md:absolute z-40 object-cover rounded-lg">
                     <img src="./images/pattern-header.svg" alt="pattern-header"
                         class="absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0">
                 </div>
-            </div>
-            <div class="bg-linear-to-r from-green via-[#F6FBEA] to-[#8EEAFF] opacity-15 absolute inset-0"></div>
+                <div class="bg-linear-to-r from-green via-[#F6FBEA] to-[#8EEAFF] opacity-15 absolute inset-0"></div>
         </section>
 
         <!-- Popular Courses -->
@@ -449,7 +453,8 @@
                     <div>
                         <div class="py-10 px-5 bg-white rounded-lg">
                             <div class="bg-[#21A3FF]/15 h-12 w-12 flex items-center justify-center rounded-lg">
-                                <iconify-icon icon="lsicon:setting-outline" class="text-3xl text-[#21A3FF]"></iconify-icon>
+                                <iconify-icon icon="lsicon:setting-outline"
+                                    class="text-3xl text-[#21A3FF]"></iconify-icon>
                             </div>
                             <p class="font-medium mt-5">Multiple Platforms Supported for Teaching & Studying</p>
                         </div>
@@ -457,14 +462,15 @@
 
                         <div class="py-10 px-5 bg-white rounded-lg mt-3 md:mt-5">
                             <div class="bg-[#21FF42]/15 h-12 w-12 flex items-center justify-center rounded-lg">
-                                <iconify-icon icon="solar:book-2-outline" class="text-3xl text-[#21FF42]"></iconify-icon>
+                                <iconify-icon icon="solar:book-2-outline"
+                                    class="text-3xl text-[#21FF42]"></iconify-icon>
                             </div>
                             <p class="font-medium mt-5">Multiple Course Participation at the Same Time</p>
                         </div>
                     </div>
 
                     <div class="md:mt-10">
-                       <div class="py-10 px-5 bg-white rounded-lg">
+                        <div class="py-10 px-5 bg-white rounded-lg">
                             <div class="bg-[#FF6421]/15 h-12 w-12 flex items-center justify-center rounded-lg">
                                 <iconify-icon icon="hugeicons:play" class="text-3xl text-[#FF6421]"></iconify-icon>
                             </div>
@@ -474,7 +480,8 @@
 
                         <div class="py-10 px-5 bg-white rounded-lg mt-3 md:mt-5">
                             <div class="bg-[#FFDE21]/15 h-12 w-12 flex items-center justify-center rounded-lg">
-                                <iconify-icon icon="ant-design:message-outlined" class="text-3xl text-[#FFDE21]"></iconify-icon>
+                                <iconify-icon icon="ant-design:message-outlined"
+                                    class="text-3xl text-[#FFDE21]"></iconify-icon>
                             </div>
                             <p class="font-medium mt-5">Track Study Progress & Deliver Prompt Feedback</p>
                         </div>
@@ -486,7 +493,8 @@
                         <div class="h-2 w-14 sm:w-20 bg-yellow"></div>
                     </div>
                     <p class="py-5">You don't have to struggle alone, you've got our assistance and help.</p>
-                    <img src="./images/chair.png" alt="chair image" class="w-full sm:w-400 sm:h-400 object-cover mx-auto lg:mx-0">
+                    <img src="./images/chair.png" alt="chair image"
+                        class="w-full sm:w-400 sm:h-400 object-cover mx-auto lg:mx-0">
                 </div>
             </div>
         </section>
@@ -510,7 +518,8 @@
             <div
                 class="w-full xl:w-3/5 absolute h-full bg-[linear-gradient(260.95deg,rgba(3,36,39,0)_21.4%,#032427_88.81%)] z-20 top-0 right-0">
             </div>
-            <div class="w-full xl:w-3/5 absolute h-full bg-[url('./../images/img-0.jpg')] z-10 top-0 right-0 bg-cover bg-center">
+            <div
+                class="w-full xl:w-3/5 absolute h-full bg-[url('./../images/img-0.jpg')] z-10 top-0 right-0 bg-cover bg-center">
             </div>
         </section>
 
@@ -518,12 +527,15 @@
         <section class="py-16">
             <div class="max-w-1536 mx-auto px-5 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
                 <div class="relative lg:p-20">
-                    <img src="./images/upgrade-skills.png" alt="upgrade skills image" class="w-full h-auto rounded-lg z-10 relative">
-                    <img src="./images/ellipse-yellow.svg" alt="ellipse-yellow" class="absolute right-0 bottom-0 z-0 lg:-translate-y-1/5 lg:-translate-x-1/5">
+                    <img src="./images/upgrade-skills.png" alt="upgrade skills image"
+                        class="w-full h-auto rounded-lg z-10 relative">
+                    <img src="./images/ellipse-yellow.svg" alt="ellipse-yellow"
+                        class="absolute right-0 bottom-0 z-0 lg:-translate-y-1/5 lg:-translate-x-1/5">
                 </div>
 
                 <div class="flex flex-col gap-y-5 md:gap-y-10">
-                    <h2 class="text-2xl sm:text-3xl font-bold">Upgrade your skills and upgrade <br class="hidden lg:block">your life</h2>
+                    <h2 class="text-2xl sm:text-3xl font-bold">Upgrade your skills and upgrade <br
+                            class="hidden lg:block">your life</h2>
                     <p>With a professional team, located in the heart of Massachusetts, we have set up consulting
                         support for international students helping them in their educational enlightenment.</p>
                     <button class="bg-green text-white rounded-lg p-3 w-fit">Start Learning Now</button>

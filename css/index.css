@@ -213,6 +213,9 @@
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
+  .-top-0 {
+    top: calc(var(--spacing) * -0);
+  }
   .-top-10 {
     top: calc(var(--spacing) * -10);
   }
@@ -221,6 +224,18 @@
   }
   .top-1\/2 {
     top: calc(1/2 * 100%);
+  }
+  .top-20 {
+    top: calc(var(--spacing) * 20);
+  }
+  .top-36 {
+    top: calc(var(--spacing) * 36);
+  }
+  .-right-10 {
+    right: calc(var(--spacing) * -10);
+  }
+  .-right-20 {
+    right: calc(var(--spacing) * -20);
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
@@ -237,8 +252,32 @@
   .bottom-3 {
     bottom: calc(var(--spacing) * 3);
   }
+  .bottom-20 {
+    bottom: calc(var(--spacing) * 20);
+  }
+  .bottom-24 {
+    bottom: calc(var(--spacing) * 24);
+  }
+  .bottom-32 {
+    bottom: calc(var(--spacing) * 32);
+  }
+  .bottom-36 {
+    bottom: calc(var(--spacing) * 36);
+  }
+  .bottom-44 {
+    bottom: calc(var(--spacing) * 44);
+  }
+  .-left-10 {
+    left: calc(var(--spacing) * -10);
+  }
+  .-left-20 {
+    left: calc(var(--spacing) * -20);
+  }
   .left-0 {
     left: calc(var(--spacing) * 0);
+  }
+  .left-10 {
+    left: calc(var(--spacing) * 10);
   }
   .z-0 {
     z-index: 0;
@@ -254,6 +293,9 @@
   }
   .z-40 {
     z-index: 40;
+  }
+  .z-50 {
+    z-index: 50;
   }
   .mx-auto {
     margin-inline: auto;
@@ -535,6 +577,12 @@
   .gap-y-20 {
     row-gap: calc(var(--spacing) * 20);
   }
+  .overflow-clip {
+    overflow: clip;
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
@@ -582,6 +630,9 @@
   }
   .border-green {
     border-color: var(--color-green);
+  }
+  .bg-\[\#7ABADD\] {
+    background-color: #7ABADD;
   }
   .bg-\[\#21A3FF\]\/15 {
     background-color: color-mix(in oklab, #21A3FF 15%, transparent);
@@ -1100,6 +1151,16 @@
       height: var(--spacing-500);
     }
   }
+  .md\:h-\[550px\] {
+    @media (width >= 48rem) {
+      height: 550px;
+    }
+  }
+  .md\:h-\[600px\] {
+    @media (width >= 48rem) {
+      height: 600px;
+    }
+  }
   .md\:h-full {
     @media (width >= 48rem) {
       height: 100%;
@@ -1108,6 +1169,26 @@
   .md\:w-440 {
     @media (width >= 48rem) {
       width: var(--spacing-440);
+    }
+  }
+  .md\:w-500 {
+    @media (width >= 48rem) {
+      width: var(--spacing-500);
+    }
+  }
+  .md\:w-\[460px\] {
+    @media (width >= 48rem) {
+      width: 460px;
+    }
+  }
+  .md\:w-\[480px\] {
+    @media (width >= 48rem) {
+      width: 480px;
+    }
+  }
+  .md\:w-\[500px\] {
+    @media (width >= 48rem) {
+      width: 500px;
     }
   }
   .md\:grid-cols-2 {
